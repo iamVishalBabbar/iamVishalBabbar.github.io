@@ -1,20 +1,196 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Virat Kohli Matches Archive</title>
-  <meta name="description" content="Watch all Virat Kohli matches, including ICC and IPL highlights.">
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-    h1 { color: #333; }
-    img { max-width: 300px; border-radius: 10px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virat Kohli - Match Archive & Career Stats</title>
+    <meta name="description" content="Complete archive of Virat Kohli's international and IPL matches with video highlights, statistics, and career milestones.">
+    
+    <!-- Open Graph/Facebook -->
+    <meta property="og:title" content="Virat Kohli - Official Match Archive">
+    <meta property="og:description" content="Relive every Virat Kohli century, IPL performance, and iconic innings with video highlights.">
+    <meta property="og:image" content="https://i.imgur.com/6Fa3Q9E.jpg">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <style>
+        /* Basic Reset & Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: #f5f5f5;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(rgba(0,0,0,0.8), url('https://i.imgur.com/6Fa3Q9E.jpg');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Match Highlights Section */
+        .video-section {
+            margin: 2rem 0;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            margin: 1rem 0;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Stats Table */
+        .stats-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .stats-table th, .stats-table td {
+            padding: 1rem;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .stats-table th {
+            background: #2c3e50;
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .stats-table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>Welcome to Virat Kohli's Match Archive! 🏏</h1>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Virat_Kohli.jpg" alt="Virat Kohli">
-  <p>🔴 **Under Construction** 🔴</p>
-  <p>We’re compiling all matches (Tests, ODIs, IPL) with highlights. Check back soon!</p>
-  <!-- Example embedded YouTube video (replace with actual match highlights) -->
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/6W6bWg8u4gQ" title="Virat Kohli Highlights" frameborder="0" allowfullscreen></iframe>
+    <header>
+        <h1>Virat Kohli Match Archive</h1>
+        <p>Relive Every Innings • 200+ Matches • 100+ Centuries</p>
+    </header>
+
+    <div class="container">
+        <section class="video-section">
+            <h2>Latest Highlights</h2>
+            <div class="video-container">
+                <!-- Replace VIDEO_ID with actual YouTube ID -->
+                <iframe 
+                    src="https://www.youtube.com/embed/v=QzjX7zqioH8" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section class="stats">
+            <h2>Career Statistics</h2>
+            <table class="stats-table">
+                <tr>
+                    <th>Format</th>
+                    <th>Matches</th>
+                    <th>Runs</th>
+                    <th>Average</th>
+                    <th>100s/50s</th>
+                </tr>
+                <tr>
+                    <td>Test</td>
+                    <td>113</td>
+                    <td>8,848</td>
+                    <td>49.15</td>
+                    <td>29/30</td>
+                </tr>
+                <tr>
+                    <td>ODI</td>
+                    <td>292</td>
+                    <td>13,848</td>
+                    <td>57.32</td>
+                    <td>50/72</td>
+                </tr>
+                <tr>
+                    <td>T20I</td>
+                    <td>117</td>
+                    <td>4,008</td>
+                    <td>52.73</td>
+                    <td>1/37</td>
+                </tr>
+                <tr>
+                    <td>IPL</td>
+                    <td>237</td>
+                    <td>7,263</td>
+                    <td>37.25</td>
+                    <td>7/50</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="social-links">
+            <h2>Official Social Profiles</h2>
+            <div style="margin: 1rem 0;">
+                <a href="https://twitter.com/imVkohli" target="_blank" style="color: #1da1f2;">Twitter</a> | 
+                <a href="https://www.instagram.com/virat.kohli/" target="_blank" style="color: #e1306c;">Instagram</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TE432FT8R9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-TE432FT8R9'); // Replace with your ID
+    </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TE432FT8R9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TE432FT8R9');
+</script>
+
 </body>
 </html>
